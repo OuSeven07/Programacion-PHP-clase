@@ -1,14 +1,4 @@
-<?php
-
-    $dominio = $_SERVER["HTTP_HOST"];
-    $rest = $_SERVER["REQUEST_URI"];
-
-    $url_completa = "http://" . $dominio . $rest;
-
-    echo "Right now you are at: $url_completa";
-    echo "ENJOY OUR CONTENT!";
-    
-?>
+<h1> HOPE YOU ENJOY WHAT U SEE!</h1>
 
 <ul>
         
@@ -20,4 +10,7 @@
         <li><a href="register.php">CREA TU CUENTA YA!</a></li>
 </ul>
 
+
 <footer>Bruh! &copy; 2019 </footer>
+</body>
+</html>
